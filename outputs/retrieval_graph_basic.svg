@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#6C757D"/>
+  </marker>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow stdDeviation="4" dx="2" dy="2" flood-color="#000" flood-opacity="0.5"/>
+  </filter>
+</defs>
+<rect width="1200" height="800" fill="#0D1117"/>
+<text x="600" y="28" text-anchor="middle" font-size="18" font-family="monospace" font-weight="bold" fill="#E6EDF3" opacity="0.85">RAG Retrieval Graph · "What is Retrieval Augmented Generation and how…</text>
+<text x="600" y="48" text-anchor="middle" font-size="11" font-family="monospace" fill="#E6EDF3" opacity="0.5">5 chunks · 8 connections</text>
+<line x1="667.2" y1="233.2" x2="173.5" y2="385.0" stroke="#6C757D" stroke-width="3.3" opacity="0.95" marker-end="url(#arrow)"/>
+<text x="420.3" y="304.1" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.95</text>
+<line x1="714.4" y1="264.0" x2="755.1" y2="609.9" stroke="#6C757D" stroke-width="3.1" opacity="0.88" marker-end="url(#arrow)"/>
+<text x="734.8" y="431.9" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.88</text>
+<line x1="749.5" y1="238.0" x2="1028.8" y2="361.1" stroke="#6C757D" stroke-width="2.9" opacity="0.82" marker-end="url(#arrow)"/>
+<text x="889.1" y="294.5" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.82</text>
+<line x1="666.3" y1="210.5" x2="322.4" y2="132.4" stroke="#6C757D" stroke-width="2.6" opacity="0.75" marker-end="url(#arrow)"/>
+<text x="494.4" y="166.5" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.75</text>
+<line x1="677.3" y1="250.5" x2="264.3" y2="641.5" stroke="#ADB5BD" stroke-width="2.4" opacity="0.68" marker-end="url(#arrow)"/>
+<text x="470.8" y="441.0" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.68</text>
+<line x1="160.7" y1="418.2" x2="709.9" y2="644.2" stroke="#6C757D" stroke-width="2.5" opacity="0.72" marker-end="url(#arrow)"/>
+<text x="435.3" y="526.2" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.72</text>
+<line x1="794.6" y1="636.3" x2="1038.1" y2="420.8" stroke="#ADB5BD" stroke-width="2.0" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="916.4" y="523.6" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.58</text>
+<line x1="264.4" y1="163.9" x2="228.1" y2="624.2" stroke="#ADB5BD" stroke-width="1.4" opacity="0.41" marker-end="url(#arrow)"/>
+<text x="246.2" y="389.0" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.55">0.41</text>
+<circle cx="709.2" cy="220.3" r="54" fill="none" stroke="#7B61FF" stroke-width="1" opacity="0.25"/>
+<circle cx="709.2" cy="220.3" r="48" fill="#7B61FF" stroke="#B39DFF" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="709.2" y="216.3" text-anchor="middle" font-size="9" font-family="monospace" font-weight="bold" fill="#FFFFFF">QUERY</text>
+<circle cx="120.0" cy="401.5" r="46" fill="none" stroke="#3FB950" stroke-width="1" opacity="0.25"/>
+<circle cx="120.0" cy="401.5" r="40" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="120.0" y="397.5" text-anchor="middle" font-size="9" font-family="monospace" font-weight="bold" fill="#FFFFFF">RAG combines pa…</text>
+<text x="120.0" y="409.5" text-anchor="middle" font-size="8" font-family="monospace" fill="#FFFFFF" opacity="0.8">score:0.95</text>
+<circle cx="152.0" cy="369.5" r="9" fill="#E36209"/>
+<text x="152.0" y="373.5" text-anchor="middle" font-size="8" font-family="monospace" font-weight="bold" fill="#FFFFFF">#1</text>
+<text x="120.0" y="455.5" text-anchor="middle" font-size="8" font-family="monospace" fill="#E6EDF3" opacity="0.55">papers/rag_survey.p…</text>
+<text x="120.0" y="465.5" text-anchor="middle" font-size="7" font-family="monospace" fill="#E6EDF3" opacity="0.4">chunk_001</text>
+<circle cx="761.7" cy="665.5" r="46" fill="none" stroke="#3FB950" stroke-width="1" opacity="0.25"/>
+<circle cx="761.7" cy="665.5" r="40" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="761.7" y="661.5" text-anchor="middle" font-size="9" font-family="monospace" font-weight="bold" fill="#FFFFFF">Dense retrieval…</text>
+<text x="761.7" y="673.5" text-anchor="middle" font-size="8" font-family="monospace" fill="#FFFFFF" opacity="0.8">score:0.88</text>
+<circle cx="793.7" cy="633.5" r="9" fill="#E36209"/>
+<text x="793.7" y="637.5" text-anchor="middle" font-size="8" font-family="monospace" font-weight="bold" fill="#FFFFFF">#2</text>
+<text x="761.7" y="719.5" text-anchor="middle" font-size="8" font-family="monospace" fill="#E6EDF3" opacity="0.55">docs/rag_survey_202…</text>
+<text x="761.7" y="729.5" text-anchor="middle" font-size="7" font-family="monospace" fill="#E6EDF3" opacity="0.4">chunk_002</text>
+<circle cx="1080.0" cy="383.7" r="46" fill="none" stroke="#3FB950" stroke-width="1" opacity="0.25"/>
+<circle cx="1080.0" cy="383.7" r="40" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1080.0" y="379.7" text-anchor="middle" font-size="9" font-family="monospace" font-weight="bold" fill="#FFFFFF">BM25 ranks docu…</text>
+<text x="1080.0" y="391.7" text-anchor="middle" font-size="8" font-family="monospace" fill="#FFFFFF" opacity="0.8">score:0.82</text>
+<circle cx="1112.0" cy="351.7" r="9" fill="#E36209"/>
+<text x="1112.0" y="355.7" text-anchor="middle" font-size="8" font-family="monospace" font-weight="bold" fill="#FFFFFF">#3</text>
+<text x="1080.0" y="437.7" text-anchor="middle" font-size="8" font-family="monospace" fill="#E6EDF3" opacity="0.55">wiki/vector_databas…</text>
+<text x="1080.0" y="447.7" text-anchor="middle" font-size="7" font-family="monospace" fill="#E6EDF3" opacity="0.4">chunk_003</text>
+<circle cx="267.8" cy="120.0" r="46" fill="none" stroke="#3FB950" stroke-width="1" opacity="0.25"/>
+<circle cx="267.8" cy="120.0" r="40" fill="#3FB950" stroke="#FFFFFF" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="267.8" y="116.0" text-anchor="middle" font-size="9" font-family="monospace" font-weight="bold" fill="#FFFFFF">Cross-encoders …</text>
+<text x="267.8" y="128.0" text-anchor="middle" font-size="8" font-family="monospace" fill="#FFFFFF" opacity="0.8">score:0.75</text>
+<text x="267.8" y="174.0" text-anchor="middle" font-size="8" font-family="monospace" fill="#E6EDF3" opacity="0.55">blog/retrieval_stra…</text>
+<text x="267.8" y="184.0" text-anchor="middle" font-size="7" font-family="monospace" fill="#E6EDF3" opacity="0.4">chunk_004</text>
+<circle cx="223.7" cy="680.0" r="46" fill="none" stroke="#D29922" stroke-width="1" opacity="0.25"/>
+<circle cx="223.7" cy="680.0" r="40" fill="#D29922" stroke="#FFFFFF" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="223.7" y="676.0" text-anchor="middle" font-size="9" font-family="monospace" font-weight="bold" fill="#FFFFFF">Cosine similari…</text>
+<text x="223.7" y="688.0" text-anchor="middle" font-size="8" font-family="monospace" fill="#FFFFFF" opacity="0.8">score:0.68</text>
+<text x="223.7" y="734.0" text-anchor="middle" font-size="8" font-family="monospace" fill="#E6EDF3" opacity="0.55">docs/embedding_mode…</text>
+<text x="223.7" y="744.0" text-anchor="middle" font-size="7" font-family="monospace" fill="#E6EDF3" opacity="0.4">chunk_005</text>
+<rect x="12" y="684" width="200" height="90" fill="#161B22" stroke="#30363D" rx="6"/>
+<text x="20" y="700" font-size="10" font-family="monospace" font-weight="bold" fill="#E6EDF3">Legend</text>
+<circle cx="26" cy="710" r="5" fill="#7B61FF"/>
+<text x="36" y="714" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.75">Query node</text>
+<circle cx="26" cy="725" r="5" fill="#3FB950"/>
+<text x="36" y="729" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.75">Score ≥ 0.75</text>
+<circle cx="26" cy="740" r="5" fill="#D29922"/>
+<text x="36" y="744" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.75">Score 0.50–0.74</text>
+<circle cx="26" cy="755" r="5" fill="#F85149"/>
+<text x="36" y="759" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.75">Score < 0.50</text>
+<text x="600" y="792" text-anchor="middle" font-size="9" font-family="monospace" fill="#E6EDF3" opacity="0.3">Generated by Prompt-Graph · github.com/NEO-Tools/Prompt-Graph</text>
+</svg>
